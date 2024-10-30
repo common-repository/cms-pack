@@ -1,0 +1,90 @@
+.cms-pack-box-left{
+    width:15px;
+    height: 15px;
+    background-image: url('circle.png');
+    float:left;
+}
+.cms-pack-box-center{
+    background-color: #ccc;
+    width:210px;
+    height: 14px;
+    border-top:solid 1px #bbb;
+    float: left;
+}
+.cms-pack-box-right{
+    width:15px;
+    height: 15px;
+    background-image: url('circle.png');
+    float: left;
+    background-position: 15px 30px;
+}
+
+
+
+.cms-pack-box-left-bottom{
+    width:15px;
+    height: 15px;
+    background-image: url('circle.png');
+    float:left;
+    line-height: 10px;
+    background-position: 0px 15px ;
+}
+.cms-pack-box-center-bottom{
+    background-color: #ccc;
+
+    height: 14px;
+    border-bottom:solid 1px #bbb;
+    float:left;
+    width:210px;
+}
+.cms-pack-box-right-bottom{
+    width:15px;
+    height: 15px;
+    background-image: url('circle.png');
+    float: left;
+    background-position: 15px 15px;
+    line-height: 10px;
+}
+
+
+.cms-pack-box{
+    width: 240px;
+    height:15px;
+}
+
+.cms-pack-box-content{
+
+    padding:0px 10px;
+    border-right:solid 1px #bbb;
+    border-left:solid 1px #bbb;
+
+    margin-top:0px;
+    background-color:#ccc
+}
+
+.cms-pack-box-content h2{
+    text-decoration: underline;
+
+}
+
+.slide{
+    display: none;
+}
+
+#slider-posts img{
+    margin:0px;
+    padding: 0px;
+    border:none;
+}
+#slider-posts {margin-bottom: 2em}
+#slider-posts .slide {position:relative; width: 510px; height: 400px}
+#slider-posts .slide .slide-details {
+    position: absolute; bottom:0px; left:0px; padding: 24px; background: transparent url(overlay.png);
+    width: 462px;
+}
+#slider-posts .slide .slide-details p, #slider-posts .slide .slide-details h2 {color:#eee}
+#slider-posts .slide .slide-details a, #slider-posts .slide .slide-details h2 a {color:#fff; font-weight: bold}
+#slider-posts .slide .slide-details a:hover, #slider-posts .slide .slide-details h2 a:hover {color:#fff; font-weight: bold; text-decoration: underline}
+ul#slider-nav {margin: 0 0 1em 0; padding: 0}
+ul#slider-nav a { padding:5px 9px; -moz-border-radius:12px; -webkit-border-radius:12px; border-radius: 12px; background:#ddd; color:#fff; margin:0 12px 0 0; }
+ul#slider-nav a.activeSlide,ul#slider-nav a:hover { background:#333; }
